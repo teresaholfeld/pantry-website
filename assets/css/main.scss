@@ -1,0 +1,62 @@
+---
+---
+/* 1. Variables go BEFORE the imports so the theme picks them up */
+$global-font-family: "Cardo", Georgia, serif;
+$header-font-family: "Norwester", Helvetica, sans-serif;
+
+/* 2. Theme imports */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+@font-face {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Norwester"),
+    local("Norwester-Regular"),
+    url("/assets/fonts/norwester/norwester.ttf") format("truetype"),
+    url("/assets/fonts/norwester/norwester.woff") format("woff");
+}
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Cardo Regular"),
+    local("Cardo-Regular"),
+    url("/assets/fonts/cardo/Cardo-Regular.ttf") format("truetype"),
+    url("/assets/fonts/cardo/Cardo-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: bold;
+  src:
+    local("Cardo Bold"),
+    local("Cardo-Bold"),
+    url("../fonts/cardo/Cardo-Bold.ttf") format("truetype"),
+    url("../fonts/cardo/Cardo-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local("Cardo Italic"),
+    local("Cardo-Italic"),
+    url("../fonts/cardo/Cardo-Italic.ttf") format("truetype"),
+    url("../fonts/cardo/Cardo-Italic.woff") format("woff");
+}
+
+body {
+  font-family: "Cardo", Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Norwester", Helvetica, sans-serif;
+}
+
+.greedy-nav a {
+  font-family: "Cardo", Georgia, serif;
+}
