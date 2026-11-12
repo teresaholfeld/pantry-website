@@ -11,4 +11,4 @@ Make an inventory of your pantry, shelf by shelf, item by item. The Pantry app w
 
 ### Don't let them expire!
 
-<img src="/images/Pantry_logo.png" height="200" width="200" alt="Pantry Logo" />
+<img src="{{ site.logo | relative_url }}" height="200" width="200" alt="Pantry Logo" />
