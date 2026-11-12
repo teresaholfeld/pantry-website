@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   to throw food again!
   Don’t let them expire!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://teresaholfeld.github.io/pantry-website/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  teresaholfeld
 
 # Build settings
@@ -40,10 +40,9 @@ direction                : # "ltr" (default), "rtl" # set the direction of the p
 title_separator          : "-"
 subtitle                 : "Don't let them expire!"
 name                     : "Teresa Holfeld Development"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/images/Pantry_logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : # 200
